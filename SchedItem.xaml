@@ -1,0 +1,168 @@
+﻿<UserControl x:Class="SchedItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="200"
+             Margin="0,1,0,1"
+             >
+
+    <UserControl.Resources>
+        <!--<ContextMenu x:Key="rtbContextMenu">
+            <MenuItem x:Name="itmOnsiteVisitRequestRtb" Header="Onsite Visit Request" Click="itmOnsiteVisitRequest_Click" Visibility="Collapsed">
+                <MenuItem.Icon>
+                    <Image Source="Resources/icons8-marker-24.png" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem Header="Copy SO Number" Click="itmCopyTaskNumber_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/Notepad.ico" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem x:Name="itmTransferRoutineTask" Header="Transfer" Click="itmTransferRoutineTask_Click" Visibility="Collapsed">
+                <MenuItem.Icon>
+                    <Image Source="Resources/Transfer.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem x:Name="itmCut" Header="Cut" Click="itmCut_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/Cut.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem x:Name="itmCopy1" Header="Copy" Click="itmCopy_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/copy.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem x:Name="itmPaste" Header="Paste" Click="itmPaste_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/paste.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>         
+            <MenuItem x:Name="itmDelete" Header="Delete" Click="itmDeleteTask_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/GreenGarbageFlat.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            --><!--<MenuItem x:Name="itmTimeShift" Header="Time Shift" Click="itmTimeShift_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources\TimeShift16.png"/>
+                </MenuItem.Icon>
+            </MenuItem>--><!--
+            <MenuItem x:Name="itmEdit" Header="Edit" Click="itmViewTaskInSMC_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/PencilCreate16.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            --><!--<MenuItem x:Name="itmCompletedRemotely" Header="Completed All Work Remotely" IsCheckable="True" StaysOpenOnClick="True">
+            </MenuItem>--><!--
+            <MenuItem x:Name="itmSetCompletedRemotelyStatus" Header="Set Completed Remotely Status" Click="ItmSetCompletedRemotelyStatus_Click">
+            </MenuItem>
+            <Separator Name="itmSeparator"/>
+            <MenuItem Name="itmTimeMilesNote" Header="Time/Note/Status" Click="itmTimeMilesNote_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/TimeMilesNote.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+
+        <ContextMenu x:Key="rtbStdContextMenu">
+            <MenuItem x:Name="itmOnsiteVisitRequestStd" Header="Onsite Visit Request" Click="itmOnsiteVisitRequest_Click" Visibility="Collapsed">
+                <MenuItem.Icon>
+                    <Image Source="Resources/icons8-marker-24.png" />
+                </MenuItem.Icon>
+            </MenuItem>
+            <Separator />
+            <MenuItem Name="itmCopy" Header="Copy" Click="itmCopy_Click_1">
+                <MenuItem.Icon>
+                    <Image Source="Resources/Copy_16.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="itmSelectAll" Header="Select All" Click="itmSelectAll_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/SelectAll16.ico"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="itmViewInBrowser2" Header="View In Browser" Visibility="Collapsed" Click="itmViewSO_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/eye.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Name="itmViewSelfGen" Header="View Self-Gen" Visibility="Collapsed" Click="itmViewSO_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/application-view-detail-icon.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            --><!--<MenuItem x:Name="itmCompletedRemotely2" Header="Completed All Work Remotely" IsCheckable="True" StaysOpenOnClick="True">
+            </MenuItem>--><!--
+            <MenuItem Name="itmSetCompletedRemotelyStatus2" Header="Set Completed Remotely Status" Click="ItmSetCompletedRemotelyStatus_Click">
+            </MenuItem>
+            <MenuItem Name="itmTimeMilesNote2" Header="Time/Note/Status" Click="itmTimeMilesNote_Click">
+                <MenuItem.Icon>
+                    <Image Source="Resources/TimeMilesNote.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>-->
+    </UserControl.Resources>
+    
+    <DockPanel Name="dpSchedItem" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" LastChildFill="True">
+        <!--<Grid DockPanel.Dock="Right">
+            <CheckBox Grid.Row="0" Name="chkSelect" Click="chkSelect_Click" />
+            <Image Grid.Row="1" Name="imgLock" Source="Resources\lock16-2.png" Width="16" Height="16" />
+            --><!--<Image Grid.Row="0" Name="imgPencil" Height="17" Width="17" VerticalAlignment="Top" HorizontalAlignment="Right" Cursor="Hand" Margin="0,0,0,0" Source="Resources\Pencil_Gray.png" MouseUp="Image_MouseUp" />-->
+            <!--<Image Grid.Row="1" Name="imgUpArrow" Width="17" VerticalAlignment="Center" Margin="0,0,0,0" Source="Resources\up-arrow-21.png" Cursor="Hand" MouseDown="imgUpArrow_MouseDown"/>
+            <Image Grid.Row="2" Name="imgDownArrow" Width="17" VerticalAlignment="Bottom" Margin="0,0,0,0" Source="Resources\down-arrow-21.png" Cursor="Hand" MouseDown="imgDownArrow_MouseDown"/>--><!--
+        </Grid>-->
+        <RichTextBox DockPanel.Dock="Left" Name="rtbText" Margin="0,0,0,0" VerticalScrollBarVisibility="Auto" BorderThickness="0" BorderBrush="Transparent" Background="Transparent" IsReadOnly="True" Cursor="Arrow" Padding="0,0,0,0"  >
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type ScrollBar}">
+                    <!--<Setter Property="Background" Value="{Binding Path=Background, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=RichTextBox}}"/>
+                    <Setter Property="BorderBrush" Value="{Binding Path=Background, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=RichTextBox}}"/>-->
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="Opacity" Value=".35"/>
+                </Style>
+            </RichTextBox.Resources>
+            <RichTextBox.ContextMenu>
+                    <ContextMenu Name="conMenu">
+                        <MenuItem Header="Copy Task Number" Click="itmCopyTaskNumber_Click">
+                        <MenuItem.Icon>
+                            <Image Source="Resources/Notepad.ico" />
+                        </MenuItem.Icon>
+                        </MenuItem>
+                    <Separator />
+                    <!--<MenuItem Header="Cut" Click="itmCut_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Resources/Cut.ico"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Copy" Click="itmCopy_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Resources/copy.png"/>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Delete" Click="itmDeleteTask_Click">
+                            <MenuItem.Icon>
+                                <Image Source="Resources/GreenGarbageFlat.ico"/>
+                            </MenuItem.Icon>
+                        </MenuItem>-->
+                    <MenuItem Header="Unassign Task" Click="itmUnassignTask_Click"/>
+                    <MenuItem x:Name="mnuToggleTravel" Header="Toggle Travel" Click="itmToggleTravel_Click">
+                        <!--<MenuItem.Icon>
+                            <Image Source="Resources\TimeShift.png"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                    <MenuItem Header="View Task in SMC" Click="itmViewSO_Click">
+                        <!--<MenuItem.Icon>
+                            <Image Source="Resources/PencilCreate24.ico"/>
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                </ContextMenu>
+                </RichTextBox.ContextMenu>
+            </RichTextBox>
+        </DockPanel>
+
+</UserControl>

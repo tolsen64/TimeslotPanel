@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TimeslotPanel", "TimeslotPanel.vbproj", "{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Debug|x64.ActiveCfg = Debug|x64
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Debug|x64.Build.0 = Debug|x64
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Debug|x86.ActiveCfg = Debug|x86
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Debug|x86.Build.0 = Debug|x86
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Release|x64.ActiveCfg = Release|x64
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Release|x64.Build.0 = Release|x64
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Release|x86.ActiveCfg = Release|x86
+		{B7853175-C7C2-4BC4-A2E1-43A6D663ACAC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DD3E2E5-9D7F-44C8-AFF5-83D8A43AE85B}
+	EndGlobalSection
+EndGlobal
